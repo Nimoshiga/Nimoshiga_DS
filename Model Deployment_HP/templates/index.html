@@ -1,0 +1,22 @@
+<html>
+<head>
+
+<body style = "background: rgb(red, green, blue)">
+
+<h1> House price prediction based on BHK/SQ.FIT </h1>
+
+<form action="/predict" method="POST">
+<input type = "text" name = "BHK_NO" placeholder = "BHK_NO">
+<input type = "text" name = "SQUARE_FT" placeholder = "SQUARE_FT">
+<button type = "submit" name = "predict"> Predict Target Price </button>
+
+</form>
+
+
+</body>
+
+</head>
+
+{{prediction_text}}
+
+</html>
